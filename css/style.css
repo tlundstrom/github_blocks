@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 760px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+
+.main div:first-of-type{
+    background-color: darkolivegreen;
+}
+.main div:nth-last-of-type(3){
+    background-color: grey;
+    justify-content: space-evenly;
+}
+.main div:nth-last-of-type(2){
+    background-color: lightskyblue;
+}
+
+
+img{
+    width: 200px;
+}
+
+h3{
+    display: inline-block;
+}
+.footer{
+    width: fit-content;
+    margin: 0 auto;
+}
